@@ -7,15 +7,52 @@
     android:gravity="center"
     tools:context=".SplashScreen">
 
-    <ImageView
+    <LinearLayout
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/logo"
-        android:src="@drawable/wellness_logo"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoPicture"
+            android:layout_width="293dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/wellness_logo" />
+
+        <ImageView
+            android:id="@+id/logoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo_text"
+            app:srcCompat="@drawable/wellness_text" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/topVintage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_atas"
+        android:contentDescription="@string/top_vintage" />
+
+    <ImageView
+        android:id="@+id/bottomVintage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bottom_vintage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/splash_bawah" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

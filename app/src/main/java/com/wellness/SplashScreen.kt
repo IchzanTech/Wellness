@@ -6,10 +6,13 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils.*
+import android.widget.FrameLayout
 import android.widget.ImageView
+import android.widget.LinearLayout
 
 class SplashScreen : AppCompatActivity() {
     private lateinit var logoAnim : Animation
+    private lateinit var textAnim : Animation
     private val splashDuration:Long = 3_000
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,9 +26,12 @@ class SplashScreen : AppCompatActivity() {
         }, splashDuration)
 
         logoAnim = loadAnimation(this, R.anim.logo_animation)
+        textAnim = loadAnimation(this, R.anim.text_animation)
 
-        val image: ImageView = findViewById(R.id.logo)
+        val pict: ImageView = findViewById(R.id.logoPicture)
+        val text: ImageView = findViewById(R.id.logoText)
 
-        image.animation = logoAnim
+        pict.animation = logoAnim
+        text.animation = textAnim
     }
 }

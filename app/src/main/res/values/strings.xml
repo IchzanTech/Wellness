@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Wellness</string>
     <string name="logo">Wellness Logo</string>
+    <string name="top_vintage">Top vintage</string>
+    <string name="bottom_vintage">Bottom vintage</string>
+    <string name="logo_text">Logo Text</string>
 </resources>
