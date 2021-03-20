@@ -4,4 +4,7 @@
     <string name="top_vintage">Top vintage</string>
     <string name="bottom_vintage">Bottom vintage</string>
     <string name="logo_text">Logo Text</string>
+    <string name="onprogress_title">Feature Under Development</string>
+    <string name="on_progress_image">On Progress Image</string>
+    <string name="onprogress_description">This cool feature is under development to make sure it gives its best for you</string>
 </resources>
