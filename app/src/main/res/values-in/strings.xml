@@ -11,4 +11,10 @@
 
     <string name="onprogress_title">Fitur Dalam Pengembangan</string>
     <string name="onprogress_description">Fitur keren ini sedang dalam prose pengembangan untuk menjadikannya yang terbaik untukmu!</string>
+
+    <string name="title_activity_dashboard">Dashboard Activity</string>
+    <string name="title_home">Utama</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_favorites">Favorit</string>
+    <string name="title_settings">Pengaturan</string>
 </resources>

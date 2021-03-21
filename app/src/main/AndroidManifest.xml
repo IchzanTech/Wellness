@@ -11,8 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wellness">
         <activity
-            android:name=".OnProgress"
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".OnProgress"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Home" />
         <activity
             android:name=".SplashScreen"

@@ -20,7 +20,7 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         Handler(mainLooper).postDelayed({
-            val home = Intent(this@SplashScreen, Home::class.java)
+            val home = Intent(this@SplashScreen, Dashboard::class.java)
             startActivity(home)
             finish()
         }, splashDuration)

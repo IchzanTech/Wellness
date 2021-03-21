@@ -9,4 +9,10 @@
 
     <string name="onprogress_title">Feature Under Development</string>
     <string name="onprogress_description">This cool feature is under development to make sure it gives its best for you!</string>
+
+    <string name="title_activity_dashboard">Dashboard Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_settings">Settings</string>
 </resources>
