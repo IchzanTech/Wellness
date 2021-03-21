@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Wellness</string>
 
@@ -7,6 +8,7 @@
     <string name="logo_text">Logo Text</string>
     <string name="on_progress_image">On Progress Image</string>
 
-    <string name="onprogress_title">Feature Under Development</string>
-    <string name="onprogress_description">This cool feature is under development to make sure it gives its best for you!</string>
+
+    <string name="onprogress_title">Fitur Dalam Pengembangan</string>
+    <string name="onprogress_description">Fitur keren ini sedang dalam prose pengembangan untuk menjadikannya yang terbaik untukmu!</string>
 </resources>
