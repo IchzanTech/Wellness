@@ -6,8 +6,26 @@
     <string name="bottom_vintage" translatable="false">Bottom vintage</string>
     <string name="logo_text" translatable="false">Logo Text</string>
     <string name="on_progress_image" translatable="false">On Progress Image</string>
+    <string name="onboarding1_image" translatable="false">Onboarding 1 Image</string>
+    <string name="onboarding2_image" translatable="false">Onboarding 2 Image</string>
+    <string name="onboarding3_image" translatable="false">Onboarding 3 Image</string>
     <string name="icon_language" translatable="false">Language icon</string>
 
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title" translatable="false">Have a good health</string>
+    <string name="second_slide_title" translatable="false">Be Stronger</string>
+    <string name="third_slide_title" translatable="false">Have a nice body</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc" translatable="false">Being healthy is all, no health is nothing. So why do not we?</string>
+    <string name="second_slide_desc" translatable="false">Take 30 minutes of bodybuilding every day to get physically fit and healthy.</string>
+    <string name="third_slide_desc" translatable="false">Bad body shape, poor sleep, lack of strength, weight gain, weak bones, easily traumatized body, depressed, stressed, poor metabolism, poor resistance</string>
+
+    <!--Buttons-->
+    <string name="next_btn" translatable="false">Next</string>
+    <string name="let_get_started" translatable="false">Lets Get Started</string>
 
     <string name="onprogress_title">Feature Under Development</string>
     <string name="onprogress_description">This cool feature is under development to make sure it gives its best for you!</string>
@@ -19,4 +37,5 @@
     <string name="title_settings">Settings</string>
 
     <string name="change_language_settings">Change Language Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
