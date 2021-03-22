@@ -42,7 +42,7 @@ class SlideAdapter(var context: Context) : PagerAdapter() {
         val view = layoutInflater!!.inflate(R.layout.slide_layout, container, false)
         val slideImageView = view.findViewById<View>(R.id.slide_image) as ImageView
         val slideHeading = view.findViewById<View>(R.id.slide_heading) as TextView
-        val slideDescription = view.findViewById<View>(slide_desc) as TextView
+        val slideDescription = view.findViewById<View>(R.id.slide_desc) as TextView
         slideImageView.setImageResource(slide_images[position])
         slideHeading.setText(slide_headings[position])
         slideDescription.setText(slide_descs[position])
