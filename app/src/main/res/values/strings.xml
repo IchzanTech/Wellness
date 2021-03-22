@@ -1,18 +1,22 @@
 <resources>
-    <string name="app_name">Wellness</string>
+    <string name="app_name" translatable="false">Wellness</string>
 
-    <string name="logo">Wellness Logo</string>
-    <string name="top_vintage">Top vintage</string>
-    <string name="bottom_vintage">Bottom vintage</string>
-    <string name="logo_text">Logo Text</string>
-    <string name="on_progress_image">On Progress Image</string>
+    <string name="logo" translatable="false">Wellness Logo</string>
+    <string name="top_vintage" translatable="false">Top vintage</string>
+    <string name="bottom_vintage" translatable="false">Bottom vintage</string>
+    <string name="logo_text" translatable="false">Logo Text</string>
+    <string name="on_progress_image" translatable="false">On Progress Image</string>
+    <string name="icon_language" translatable="false">Language icon</string>
+
 
     <string name="onprogress_title">Feature Under Development</string>
     <string name="onprogress_description">This cool feature is under development to make sure it gives its best for you!</string>
 
-    <string name="title_activity_dashboard">Dashboard Activity</string>
+    <string name="title_activity_dashboard" translatable="false">Dashboard Activity</string>
     <string name="title_home">Home</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_favorites">Favorites</string>
     <string name="title_settings">Settings</string>
+
+    <string name="change_language_settings">Change Language Settings</string>
 </resources>

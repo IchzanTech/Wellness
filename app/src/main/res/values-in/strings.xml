@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Wellness</string>
-
-    <string name="logo">Wellness Logo</string>
-    <string name="top_vintage">Top vintage</string>
-    <string name="bottom_vintage">Bottom vintage</string>
-    <string name="logo_text">Logo Text</string>
-    <string name="on_progress_image">On Progress Image</string>
-
-
     <string name="onprogress_title">Fitur Dalam Pengembangan</string>
     <string name="onprogress_description">Fitur keren ini sedang dalam prose pengembangan untuk menjadikannya yang terbaik untukmu!</string>
 
-    <string name="title_activity_dashboard">Dashboard Activity</string>
     <string name="title_home">Utama</string>
     <string name="title_notifications">Notifikasi</string>
     <string name="title_favorites">Favorit</string>
     <string name="title_settings">Pengaturan</string>
+
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
 </resources>
