@@ -9,4 +9,11 @@
     <string name="title_settings">Pengaturan</string>
 
     <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+
+    <!--Dashboard-->
+    <string name="good_morning">Selamat Pagi,</string>
+    <string name="our_services">Layanan Kami</string>
+    <string name="coming_soon">Akan Datang</string>
+    <string name="classes_for_today">Kelas Hari Ini</string>
+    <string name="yoga_class">Kelas Yoga</string>
 </resources>
